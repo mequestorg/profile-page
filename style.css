@@ -1,0 +1,13 @@
+/* Remove custom styles for Bootstrap classes */
+
+/* Custom styles for work experience animations */
+.work-entry {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.work-entry.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
